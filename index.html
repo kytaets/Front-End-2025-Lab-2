@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Токовенко В.В., ІМ-32, ЛР1, Варіант 8</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      td {
+        border: 1px solid black;
+        text-align: center;
+        padding: 10px;
+      }
+
+      tr:first-child td {
+        background-color: #088f8f; /* nn = 08 */
+        color: #ffffff;
+      }
+      tr:first-child:hover td {
+        background-color: #f5f508;
+        color: #000000;
+      }
+
+      tr:nth-child(2) td {
+        background-color: #f5f508;
+        color: #000000;
+      }
+      tr:nth-child(2):hover td {
+        background-color: #088f8f;
+        color: #ffffff;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Завдання 1</h2>
+    <table>
+      <tr>
+        <td></td>
+        <td></td>
+        <td colspan="2" rowspan="2">Токовенко</td>
+        <td colspan="2">Владислав</td>
+        <td colspan="2" rowspan="2">Вікторович</td>
+      </tr>
+
+      <tr>
+        <td colspan="2">ІМ-32</td>
+        <td colspan="2">ЛР-2 Варіант 8</td>
+      </tr>
+
+      <tr>
+        <td colspan="2"></td>
+        <td colspan="6"></td>
+      </tr>
+    </table>
+
+    <h2>Завдання 2</h2>
+    <h3>Варіант 8: Зображення за допомогою position</h3>
+    <div class="wrapper-position">
+      <div class="square sq1"></div>
+      <div class="square sq2"></div>
+    </div>
+
+    <h2>Варіант 8: Зображення за допомогою transform</h2>
+    <div class="wrapper-transform">
+      <div class="square sq1"></div>
+      <div class="square sq2-transform"></div>
+    </div>
+  </body>
+</html>
